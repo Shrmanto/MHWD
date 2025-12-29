@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['helmet', 'no_helmet']
+
+roboflow:
+  workspace: skripsi-aqcuz
+  project: mhwd-l5lu5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skripsi-aqcuz/mhwd-l5lu5/dataset/1
